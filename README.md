@@ -1,12 +1,10 @@
 couchperuser
 ============
 
-couchperuser is a CouchDB daemon that ensures that a private per-user
-database exists for each document in _users. These databases are
-writable only by the corresponding user.
+couchperuser is a CouchDB daemon that ensures that a public per-user
+database exists for each document in _users. 
 
-Currently this is very much purpose-built for CodeCosmos. Databases are
-in the form:
+Databases are in the form:
 
   userdb-{hex encoded username}
 
